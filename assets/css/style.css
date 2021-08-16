@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-    --primary-color:rgb(17, 86, 102);
-    --primary-color-darker: rgb(9, 46, 56);
+    --primary-color:rgb(50, 17, 102);
+    --primary-color-darker: rgb(43, 9, 56);
     --primary-color-active: rgb(124, 124, 124);
 
 }
@@ -50,27 +50,33 @@ form input:focus {
     outline: 1px solid var(--primary-color);
 }
 
-form button {
+.btn-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btn {
     margin: 0 auto;
-    border: none;
+    border: 1px ;
     background: var(--primary-color);
     color: #fff;
     font-size: 18px;
     font-weight: 700;
-    width: 50%;
+    width: 40%;
     height: 50px;
     cursor: pointer;
 }   
 
-form button:hover {
+.btn:hover {
     background: var(--primary-color-darker);
 }
 
-form button:focus {
+.btn:focus {
     background: var(--primary-color-darker);
 }
 
-form button:active {
+.btn:active {
     background: var(--primary-color-active);
 }
 
@@ -93,4 +99,8 @@ table td, table th {
 
 .bad {
     background: rgb(221, 22, 62);
+}
+
+footer {
+    color:#fff
 }

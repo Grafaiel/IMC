@@ -27,9 +27,9 @@ function meuEscopo() {
         result.innerHTML = '';
 
         if(!peso) {
-            return result.innerHTML += `<p style="background:red; color:white;" > Peso Iválido - Exemplo válido: 1.84 <br>`;    
+            return result.innerHTML += `<p style="background:red; color:white;" > Peso Iválido - Exemplo válido: 97 <br>`;    
         } else if(!altura) {
-            return result.innerHTML += `<p style="background:red; color:white;" > Altura Iválida - Exemplo válido: 104.4 <br>`;    
+            return result.innerHTML += `<p style="background:red; color:white;" > Altura Iválida - Exemplo válido:  1.84 <br>`;    
         } else if (imc <= 18.5 ) {
             return result.innerHTML += `<p style="background:red; color:white;" > Peso: ${exibirPeso} <br> IMC = ${exibirImc} <br> Menos do que 18,5 Abaixo do peso </p>`;    
         } else if (imc >= 18.51 && imc <= 24.9 ) {
